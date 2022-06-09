@@ -2,13 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Dependencies
+### Dependencies
 
 Untuk npm :
-npm install react react-dom react-script react-router-dom
+`npm install react react-dom react-script react-router-dom`
 
 Untuk yarn :
-yarn add react react-dom react-script react-router-dom
+`yarn add react react-dom react-script react-router-dom`
 
 ## Available Scripts
 
