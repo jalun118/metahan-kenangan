@@ -5,10 +5,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Dependencies
 
 Untuk npm :
+
 `npm install react react-dom react-script react-router-dom`
 
+`npm install axios`
+
 Untuk yarn :
+
 `yarn add react react-dom react-script react-router-dom`
+
+`yarn add axios`
 
 ## Available Scripts
 
