@@ -1,0 +1,123 @@
+.home {
+	content: '';
+	background: url(../images/gambar-sawah-laptop.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	text-align: start;
+}
+
+.pembuka {
+	margin: 60px 100px;
+	margin-top: 140px;
+	max-width: 640px;
+	backdrop-filter: blur(10px);
+	border-radius: 40px;
+	padding: 10px 20px;
+	overflow: hidden;
+	max-height: fit-content;
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+	animation-delay: 0s;
+	animation-name: tranformsUp;
+}
+
+
+@keyframes tranformsUp {
+	0% {
+		transform: translateY(-100%);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+@keyframes tranformsDown {
+	0% {
+		transform: translateY(105%);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+@keyframes tranformsRight {
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+@keyframes tranformsLeft {
+	0% {
+		transform: translateX(100%);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+
+.pembuka>.info>h2 {
+	color: #15c4c4;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 2px;
+	line-height: 56px;
+	margin-bottom: 20px;
+}
+
+.pembuka>.info>h2>span {
+	color: #ffff;
+	display: block;
+}
+
+.pembuka>.info>p {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.pembuka>.btn-to-memory {
+	color: #ffff;
+	padding: 10px 15px;
+	background: #15c4c4;
+	margin: 20px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.24s ease-in-out;
+	box-shadow: 3px 4px 2px 0px rgba(0, 0, 0, 0.5);
+	border: 1px solid #188181;
+}
+
+.pembuka>.btn-to-memory:hover {
+	box-shadow: 0px 0px 4px 2px #1bb4b4;
+}
+
+/* .pembuka {
+    margin-left: 50px;
+} */
+
+@media (max-width: 500px) {
+	.pembuka {
+		margin: 15px;
+		margin-top: 50px;
+		/* background: url(../images/gambar-sawah-hp.png) no-repeat;
+        background-size: 100%; */
+	}
+
+}
+
+@media screen and (max-width: 300px) {
+	.pembuka {
+		margin: 5px;
+	}
+}
