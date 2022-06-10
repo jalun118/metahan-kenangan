@@ -2,15 +2,16 @@ import { useState } from 'react';
 import '../css/memory.css';
 import axios from 'axios';
 import { motion } from "framer-motion";
+import { TapTitle } from '../Utils/TapTitle';
 
 export default function Memory() {
+	TapTitle('Memory');
 	const [value, setvalue] = useState([]);
 	const [loading, setloadig] = useState(true);
 
 	const fetchData = () => {
 		axios.get('https://jalun118.github.io/api-temen-temen/item.json')
 			.then((res) => {
-				// console.log(res)
 				setvalue(res.data);
 				setloadig(false)
 			})

@@ -1,8 +1,5 @@
 import * as React from "react";
 import {
-  Routes,
-  Route,
-  Outlet,
   Link,
   useMatch,
   useResolvedPath,

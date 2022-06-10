@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.logos {
+    animation: App-logo-spin 20s infinite linear;
+}
+
+.logos > .react {
+    color: #61dafb;
+    font-size: 200px;
+}
+
+.judul-about {
+    margin-top: 50px;
+    color: #ffff;
+}
+
 .App-logo {
     height: 40vmin;
     pointer-events: none;

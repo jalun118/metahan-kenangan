@@ -1,7 +1,9 @@
 import "../css/document.css"
 import { motion } from "framer-motion";
+import { TapTitle } from "../Utils/TapTitle";
 
 export default function Document() {
+  TapTitle('Document');
   return (
     <motion.div
       initial={{ opacity: 0 }}

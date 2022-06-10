@@ -1,5 +1,5 @@
 import "../css/navbar.css";
-import LinkCustom from "../StateBtn/LinkCustom";
+import LinkCustom from "../Utils/LinkCustom";
 import { useEffect } from "react";
 
 export default function Navbar() {

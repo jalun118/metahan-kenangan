@@ -1,8 +1,10 @@
 import "../css/home.css"
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion"
+import { TapTitle } from "../Utils/TapTitle";
 
 export default function Home() {
+    TapTitle('Home')
     return (
         <motion.div
             initial={{ opacity: 0 }}
