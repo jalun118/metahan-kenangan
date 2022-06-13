@@ -6,6 +6,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
 .content {
   margin-top: 0;
   padding-top: 0;

@@ -32,7 +32,7 @@ export default function Navbar() {
           <ul className="navigation">
             <div id="marker"></div>
             <LinkCustom to="" className="item-nav">Home</LinkCustom>
-            <LinkCustom to="/document" className="item-nav">Document</LinkCustom>
+            <LinkCustom to="/document" className="item-nav">Docs</LinkCustom>
             <LinkCustom to="/memory" className="item-nav">Memory</LinkCustom>
             <LinkCustom to="/about" className="item-nav">About</LinkCustom>
           </ul>
